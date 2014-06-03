@@ -1,0 +1,8 @@
+[31-May-2011 10:08:15] PHP Parse error:  syntax error, unexpected T_STRING in /home/arsiadan/public_html/dwa-projekt/new_version/scripts/functions.php on line 110
+[31-May-2011 10:25:51] PHP Fatal error:  Call to undefined function  equire_once() in /home/arsiadan/public_html/dwa-projekt/new_version/scripts/functions.php on line 88
+[02-Jun-2011 00:01:13] PHP Parse error:  syntax error, unexpected T_STRING in /home/arsiadan/public_html/dwa-projekt/new_version/scripts/functions.php on line 197
+[02-Jun-2011 00:01:45] PHP Parse error:  syntax error, unexpected ';' in /home/arsiadan/public_html/dwa-projekt/new_version/scripts/functions.php on line 195
+[02-Jun-2011 00:01:47] PHP Parse error:  syntax error, unexpected ';' in /home/arsiadan/public_html/dwa-projekt/new_version/scripts/functions.php on line 195
+[02-Jun-2011 00:01:47] PHP Parse error:  syntax error, unexpected ';' in /home/arsiadan/public_html/dwa-projekt/new_version/scripts/functions.php on line 195
+[02-Jun-2011 00:07:41] PHP Parse error:  syntax error, unexpected ';' in /home/arsiadan/public_html/dwa-projekt/new_version/content/login/registration.php on line 22
+[02-Jun-2011 00:08:03] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/arsiadan/public_html/dwa-projekt/new_version/content/login/registration.php on line 22

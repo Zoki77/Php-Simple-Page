@@ -1,0 +1,123 @@
+<?php // Ovo je datoteka u kojoj su definirane sve funkcije.
+    session_start();
+
+    /* #################### FUNKCIJE ZA RAD S BAZOM #################### */
+    
+    $db_connection;
+    
+    // Funkcija otvara konekciju prema bazi podataka.
+    function db_open_connection()
+    {
+        // Database connection info [full privileges!]
+        $db_hostname = 'localhost';
+        $db_username = 'arsiadan_dwa';
+        $db_password = 'D0br4_Sh1fr4';
+
+        // Connects to the Database; error if fails
+        $db_connection = mysql_connect($db_hostname, $db_username, $db_password) or die('Error connecting to MySQL!');
+    
+        // Sets the default database; error if fails
+        $db_name = 'arsiadan_dwa-projekt';
+        mysql_select_db($db_name) or die('Error accessing database!');
+    
+        // Fix za hrvatske znakove (neki ludi bug u PHP-u)
+        mysql_query("SET NAMES utf8;");
+    }
+    
+    
+
+    // Funkcija zatvara konekciju prema bazi.
+    function db_close_connection()
+    {
+        mysql_close() or die('Error closing database connection');
+    }
+    
+
+    /* #################### FUNKCIJE ZA RAD SA SESSION-IMA #################### */
+    
+    // Funkcija provjerava postoji li korisnik u bazi
+    function user_login()
+    {
+    	$db_users_table = "User";
+    
+        // Puts variables from POST data into local variables
+        $tried_username = $_POST['username'];
+    	$tried_password = $_POST['password'];
+    
+    	//Protection against injection
+    	$username = stripslashes($tried_username);
+    	$password = stripslashes($tried_password);
+    	// Escaping special characters
+    	$username = mysql_real_escape_string($username);
+    	$password = mysql_real_escape_string($password);
+    
+    	$query = "SELECT * FROM $db_users_table WHERE user_username = '$username' and user_password = '$password'";
+    	$result = mysql_query($query);
+
+    	// Mysql_num_rows counts table rows returned in the result
+    	$count = mysql_num_rows($result);
+    	// Query should return a single match for an existing user, and
+        // zero for non-existing user or wrong username/password combination
+    
+        if ($count == 1)
+        {
+            // Register $username, $password and redirect to file "login_success.php"
+    		session_start();
+            $_SESSION['valid'] = TRUE;
+            $_SESSION['logged_username'] = $username; // Stores currently logged user
+            mysql_query("
+                UPDATE  $db_users_table
+                SET     user_last_visit = NOW()
+                WHERE   user_username = '$username'
+            ");
+            $redirect = "Location: ../../start.php?page=news";
+    	}
+    	else
+        {
+            $_SESSION['error_detection'] = TRUE;
+            $redirect = "Location: login.php?error=1";
+    	}
+    	header($redirect);
+    	exit();
+    }
+
+    function user_check_validation()
+    {
+        // Uvjet koji provjerava je li superglobal variabla $_SESSION['valid'] postavljena na "true" nebitno koji korisnik je ulogiran.
+        if ($_SESSION['valid'] == FALSE)
+    	{
+            header("location: login.php");
+    	}
+    }
+    
+    // Funkcija koja se poziva nakon uspješnog logiranja korisnika
+    function user_validate()
+    {
+    
+    }
+    
+    function session_cleanup()
+    {
+        $_SESSION = array(); // Uništava sve podatke koji su do tad bili zapisanu u $_SESSION.
+        session_destroy(); // Uništava session.
+    }
+
+    function user_logout()
+    {
+        if ($_SESSION['valid'] == TRUE)
+    	{
+            $db_users_table = "User";
+            $username = $_SESSION['logged_username'];
+
+            db_open_connection();
+            mysql_query("
+                UPDATE  $db_users_table
+                SET     user_last_visit = NOW()
+                WHERE   user_username = '$username'
+            ");
+            db_close_connection();
+        }
+        session_cleanup();
+        return true;
+    }
+?>

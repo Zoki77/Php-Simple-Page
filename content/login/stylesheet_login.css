@@ -1,0 +1,79 @@
+body, html {
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 10pt;
+	padding:0;
+	color:#000;
+}
+#div_login_all {
+	width: 360px;
+	margin: auto;
+	margin-top: 40px;
+	padding: 0px;
+	border: 0px solid black;
+	background: #fff;
+}
+
+#div_login_header {
+	border: 0px solid black;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#div_login_message {
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 10pt;
+	text-align: center;
+}
+
+#div_login_content {
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 10pt;
+	padding: 5px;
+	border: 0px solid black;
+	padding-top: 10px;
+	text-align: center;
+}
+
+/* BUTTONS */
+
+.button_submit {
+	border: 1px solid #006;
+	background: #ccf;
+}
+
+.button_submit:hover {
+	border: 1px solid #006;
+	background-color: #f5f5f5;
+}
+
+.button_submit:active {
+	position:relative;
+	top:1px;
+}
+
+
+.Button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#ffffff;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#505050;
+	font-family:Trebuchet MS;
+	font-size:11px;
+	font-weight:normal;
+	padding:5px 11px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}
+
+.Button:hover {
+	background-color:#f5f5f5;
+}
+
+.Button:active {
+	position:relative;
+	top:1px;
+}

@@ -1,0 +1,40 @@
+[01-Jun-2011 03:39:07] PHP Parse error:  syntax error, unexpected $end in /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php on line 12
+[01-Jun-2011 03:40:59] PHP Parse error:  syntax error, unexpected $end in /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php on line 12
+[01-Jun-2011 03:41:34] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php on line 4
+[01-Jun-2011 03:41:59] PHP Parse error:  syntax error, unexpected $end in /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php on line 12
+[01-Jun-2011 03:42:14] PHP Parse error:  syntax error, unexpected $end in /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php on line 11
+[01-Jun-2011 03:42:16] PHP Parse error:  syntax error, unexpected $end in /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php on line 11
+[01-Jun-2011 03:42:43] PHP Parse error:  syntax error, unexpected $end in /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php on line 10
+[01-Jun-2011 03:42:44] PHP Parse error:  syntax error, unexpected $end in /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php on line 10
+[01-Jun-2011 03:42:44] PHP Parse error:  syntax error, unexpected $end in /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php on line 10
+[01-Jun-2011 03:42:44] PHP Parse error:  syntax error, unexpected $end in /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php on line 10
+[01-Jun-2011 03:42:44] PHP Parse error:  syntax error, unexpected $end in /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php on line 10
+[01-Jun-2011 03:42:45] PHP Parse error:  syntax error, unexpected $end in /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php on line 10
+[01-Jun-2011 03:54:30] PHP Parse error:  syntax error, unexpected '=' in /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php on line 7
+[01-Jun-2011 03:54:49] PHP Parse error:  syntax error, unexpected T_VAR in /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php on line 7
+[01-Jun-2011 04:00:06] PHP Parse error:  syntax error, unexpected T_VAR in /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php on line 4
+[01-Jun-2011 05:53:34] PHP Fatal error:  Call to undefined function  open_connection() in /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php on line 12
+[01-Jun-2011 05:53:58] PHP Fatal error:  Call to undefined function  open_connection() in /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php on line 12
+[01-Jun-2011 05:54:13] PHP Fatal error:  Call to undefined function  open_connection() in /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php on line 12
+[01-Jun-2011 05:54:18] PHP Fatal error:  Call to undefined function  open_connection() in /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php on line 12
+[01-Jun-2011 08:30:27] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php:2) in /home/arsiadan/public_html/dwa-projekt/new_version/scripts/functions.php on line 2
+[01-Jun-2011 08:35:54] PHP Parse error:  syntax error, unexpected '>' in /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php on line 26
+[01-Jun-2011 08:36:11] PHP Parse error:  syntax error, unexpected '<' in /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php on line 2
+[01-Jun-2011 08:36:32] PHP Parse error:  syntax error, unexpected '>' in /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php on line 27
+[01-Jun-2011 08:36:35] PHP Parse error:  syntax error, unexpected '>' in /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php on line 27
+[01-Jun-2011 08:37:01] PHP Parse error:  syntax error, unexpected '>' in /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php on line 28
+[01-Jun-2011 08:37:18] PHP Parse error:  syntax error, unexpected '<' in /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php on line 28
+[01-Jun-2011 08:37:43] PHP Parse error:  syntax error, unexpected '<' in /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php on line 28
+[01-Jun-2011 08:37:48] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php:3) in /home/arsiadan/public_html/dwa-projekt/new_version/scripts/functions.php on line 2
+[01-Jun-2011 08:38:09] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php:3) in /home/arsiadan/public_html/dwa-projekt/new_version/scripts/functions.php on line 2
+[01-Jun-2011 08:38:10] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php:3) in /home/arsiadan/public_html/dwa-projekt/new_version/scripts/functions.php on line 2
+[01-Jun-2011 08:38:13] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/arsiadan/public_html/dwa-projekt/new_version/SERVER.php:3) in /home/arsiadan/public_html/dwa-projekt/new_version/scripts/functions.php on line 2
+[01-Jun-2011 12:59:05] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/arsiadan/public_html/dwa-projekt/new_version/scripts/functions.php on line 73
+[01-Jun-2011 12:59:37] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/arsiadan/public_html/dwa-projekt/new_version/scripts/functions.php on line 73
+[01-Jun-2011 13:00:14] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/arsiadan/public_html/dwa-projekt/new_version/scripts/functions.php on line 73
+[01-Jun-2011 13:00:31] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/arsiadan/public_html/dwa-projekt/new_version/scripts/functions.php on line 73
+[01-Jun-2011 13:00:35] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/arsiadan/public_html/dwa-projekt/new_version/scripts/functions.php on line 73
+[01-Jun-2011 13:03:08] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /home/arsiadan/public_html/dwa-projekt/new_version/content/headers/user_menu.php on line 7
+[02-Jun-2011 07:28:40] PHP Warning:  include_once(../../scripts/functions.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/arsiadan/public_html/dwa-projekt/new_version/start.php on line 2
+[02-Jun-2011 07:28:40] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening '../../scripts/functions.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/arsiadan/public_html/dwa-projekt/new_version/start.php on line 2
+[02-Jun-2011 07:28:40] PHP Fatal error:  Call to undefined function  session_cleanup() in /home/arsiadan/public_html/dwa-projekt/new_version/start.php on line 4
